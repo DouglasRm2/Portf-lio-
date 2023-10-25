@@ -1,0 +1,57 @@
+section{
+
+    margin-top: 10px;
+
+    height: 3rem;
+  
+    
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .logo{
+    color: rgb(48, 149, 236);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 35px;
+    background: -webkit-linear-gradient(78deg, #f8e963, #bd3737,#f1a43e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.menu_meio{
+    display: flex;
+   gap: 10rem;
+   align-items: center;
+   color: #bd3737;
+   font-size: 20px;
+}
+.menu_direita{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    color: #bd3737;
+}
+
+
+
+
+
+ul{
+    
+display: flex;
+justify-content: space-between;
+margin-top: 14px;
+color: aliceblue;
+   
+}
+
+
+.menu li{
+    list-style: none;
+
+}
+

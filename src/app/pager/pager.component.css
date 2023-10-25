@@ -1,0 +1,29 @@
+section{
+    margin: 0%;
+    padding: 0%;
+    height: 60.1rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pag{
+
+    height: 50rem;
+    width: 130rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.pag2{
+
+    height: 48rem;
+    width: 128rem;
+    border-radius: 10px;
+    border: solid 1px red;
+}
