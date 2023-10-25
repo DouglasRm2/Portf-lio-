@@ -1,24 +1,13 @@
 *{
-   
-margin: 0%;
-padding: 0%;
-box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
-
-background: rgb(188,233,214);
-background: -moz-linear-gradient(0deg, rgba(188,233,214,1) 0%, rgba(228,221,221,1) 88%);
-background: -webkit-linear-gradient(0deg, rgba(188,233,214,1) 0%, rgba(228,221,221,1) 88%);
-background: linear-gradient(0deg, rgba(188,233,214,1) 0%, rgba(228,221,221,1) 88%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bce9d6",endColorstr="#e4dddd",GradientType=1);
-
-
-
-
-    background-repeat: none;
-    background-size: 100vw 100vh;
-
-
-
-
-  
+body{
+    background: rgb(27,33,41);
+background: -moz-radial-gradient(circle, rgba(27,33,41,1) 0%, rgba(19,2,2,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(27,33,41,1) 0%, rgba(19,2,2,1) 100%);
+background: radial-gradient(circle, rgba(27,33,41,1) 0%, rgba(19,2,2,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b2129",endColorstr="#130202",GradientType=1);
 }
