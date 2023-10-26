@@ -1,33 +1,31 @@
 section{
-    margin: 0%;
-    padding: 0%;
-    height: 60.1rem;
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+height: 100vh;
+width: 100%;
+border: solid 1px rgb(255, 255, 255);
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
-.pag{
-
-    height: 50rem;
-    width: 130rem;
+.tela{
+    height: 800px;
+    width: 85%;
+    border: solid 1px rgb(0, 0, 0);
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid 1px rgba(136, 136, 136, 0.158);
-
-
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.pag2{
+.blu
+{
 
-    height: 48rem;
-    width: 128rem;
-    border-radius: 10px;
-   
-
- 
+background-color: rgb(6, 7, 7);
+height: 9px;
+width:   100%;
+filter: blur(7px);
+margin-top: 4px;
+margin-bottom:    6px;
+}
+.conteudos{
+    display: flex;
+    justify-content: center;
 }

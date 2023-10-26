@@ -1,41 +1,53 @@
-section{
-    margin-top: 10px;
-    height: 3rem;  
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
 }
 
 
-.menu{
+.navbar {
+    background-color: #333333;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    transition: background-color 0.3s; 
+ border-radius: 10px;
+ }
+
+.navbar:hover {
+    background-color: #99430a; 
 }
 
-.menu .logo{
- 
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 35px;
-    background: -webkit-linear-gradient(78deg, #f8e963, #bd3737,#f1a43e);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.menu li{
+.nav-links {
     list-style: none;
-
+    display: flex;
 }
 
-.menu_meio{
-    display: flex;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 35px;
-   width:  50rem;
-
-
+.nav-links li {
+    margin-right: 20px;
 }
 
-.menu_meio ul{
-    display: flex;
-    color: #f1a43e;
-    gap:  10rem;
+.nav-links a {
+    text-decoration: none;
+    color: #eea215;
+    transition: background-image 0.1s; 
+}
 
+.nav-links a:hover {
+    background-image: linear-gradient(to bottom, #ff9900, #ff4500); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }

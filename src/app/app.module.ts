@@ -7,12 +7,18 @@ import { NavComponent } from './pager/nav/nav.component';
 import { PagerComponent } from './pager/pager.component';
 import { ConteudosComponent } from './pager/conteudos/conteudos.component';
 
+import { ConteudosEsqComponent } from './pager/conteudos/conteudos-esq/conteudos-esq.component';
+import { ConteudosDirComponent } from './pager/conteudos/conteudos-dir/conteudos-dir.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     PagerComponent,
-    ConteudosComponent
+    ConteudosComponent,
+ 
+    ConteudosEsqComponent,
+      ConteudosDirComponent
   ],
   imports: [
     BrowserModule,
